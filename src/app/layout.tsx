@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="ru" className={rubik.variable}>
-        <body className="font-sans bg-white text-black">
+        <body className={`font-sans bg-white text-black`}>
         <Header />
         {children}
         <Footer/>

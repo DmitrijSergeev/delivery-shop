@@ -27,4 +27,5 @@ html {
 
 body {
     background-color: #fbf8ec;
+    font-family: var(--font-rubik), sans-serif;
 }
