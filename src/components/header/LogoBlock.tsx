@@ -10,9 +10,9 @@ export const LogoBlock = () => {
                        fill sizes={'(max-width: 768px) 100vw, max-width: 1200px) 50vw, 33vw'}
                 />
             </div>
-            <div className={''}>
-                <Image src={''} alt={'text'}
-                       fill
+            <div className={'relative hidden md:block w-25 h-3'}>
+                <Image src={'/icons-header/icon-text.png'} alt={'text'}
+                       fill sizes={'100px'}
                 />
             </div>
         </Link>
