@@ -9,7 +9,7 @@ const LogoBlock = () => {
                     src="/icons-header/icon-logo.svg"
                     alt="Логотип"
                     fill
-
+                    priority
                 />
             </div>
             <div className="relative hidden lg:block w-25 h-3">
